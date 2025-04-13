@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { RouterModule } from '@angular/router';
 
@@ -11,6 +11,13 @@ declare var bootstrap: any;
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
+    isScrolled = false;
+
+  @HostListener('window:scroll', ['$event'])
+  onWindowScroll() {
+    this.isScrolled = window.scrollY > 50;
+  }
+
   collapseNavbar() {
     const navbar = document.getElementById('navbarNav');
     if (navbar?.classList.contains('show')) {
