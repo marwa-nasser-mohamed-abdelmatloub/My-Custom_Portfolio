@@ -1,0 +1,129 @@
+/* About Section Styles */
+.about-section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.profession-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.highlight-box {
+  background-color: #475569;
+  border-left: 4px solid #2563eb;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+.highlight-box p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.personal-info-container {
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #475569;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.icon {
+  color: #3498db;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  width: 25px;
+  text-align: center;
+}
+
+.section-title .highlight {
+  color: #2563eb;
+  position: relative;
+}
+
+.section-title .highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width:30px;
+  height: 3px;
+  background: #2563eb;
+  border-radius: 3px;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .about-section {
+    padding: 80px 0;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .profession-subtitle {
+    font-size: 1.3rem;
+  }
+
+  .about-description,
+  .highlight-box p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .personal-info-container {
+    padding: 20px;
+  }
+
+  .info-list li {
+    font-size: 0.95rem;
+  }
+}
