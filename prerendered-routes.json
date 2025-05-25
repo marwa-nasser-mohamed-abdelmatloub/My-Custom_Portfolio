@@ -1,9 +1,0 @@
-{
-  "routes": {
-    "/My-Custom_Portfolio": {},
-    "/My-Custom_Portfolio/about": {},
-    "/My-Custom_Portfolio/contact": {},
-    "/My-Custom_Portfolio/portfolio": {},
-    "/My-Custom_Portfolio/skills": {}
-  }
-}
