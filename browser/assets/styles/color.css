@@ -1,0 +1,19 @@
+:root {
+  /* Primary Color Palette */
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --primary-light: #3b82f6;
+
+  /* Text Colors */
+  --text-dark: #1e293b;
+  --text-medium: #475569;
+  --text-light: #f8fafc;
+
+  /* Background Colors */
+  --bg-light: #f8fafc;
+  --bg-blue: #21222a;
+
+  /* Other Colors */
+  --border-color: #e2e8f0;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
