@@ -1,0 +1,56 @@
+.skill-item {
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: translateY(-5px);
+}
+
+.skill-percent {
+  float: right;
+  color: #2563eb;
+  font-size: 0.9rem;
+}
+
+.progress {
+  height: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.progress-bar {
+  border-radius: 4px;
+}
+
+.bg-primary {
+  background-color: #2563eb !important;
+}
+
+.bg-info {
+  background-color: #8eb1ff !important;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title .highlight {
+  color: #2563eb;
+  position: relative;
+}
+
+.section-title .highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: #2563eb;
+  border-radius: 3px;
+}
